@@ -1,6 +1,6 @@
 {
   "name": "@ddddurk/configs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Configs for using commitlint, eslint, husky, lint-staged, prettier, typescript, with yarn.",
   "author": "ddddurk",
   "license": "MIT",
