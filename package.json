@@ -1,0 +1,54 @@
+{
+  "name": "@ddddurk/configs",
+  "version": "0.0.0",
+  "description": "Configs for using commitlint, eslint, husky, lint-staged, prettier, typescript, with yarn.",
+  "author": "ddddurk",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "./commitlint.json",
+    "./eslint.json",
+    "./lint-staged.json",
+    "./prettier.json",
+    "./tsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddddurk/configs",
+    "directory": "packages/configs"
+  },
+  "bugs": {
+    "url": "https://github.com/ddddurk/configs/issues"
+  },
+  "keywords": [
+    "commitlint",
+    "eslint",
+    "husky",
+    "lint-staged",
+    "prettier",
+    "typescript",
+    "yarn"
+  ],
+  "scripts": {
+    "lint": "eslint --fix './**/*.{js,json,jsx,ts,tsx}' && prettier --write .",
+    "prepare": "husky install",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
