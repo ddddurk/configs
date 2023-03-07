@@ -1,6 +1,6 @@
 # @ddddurk/configs
 
-Configus for using [commitlint](https://commitlint.js.org/#/), [eslint](https://eslint.org), [husky](https://typicode.github.io/husky), [lint-staged](https://github.com/okonet/lint-staged), [prettier](https://prettier.io), [typescript](https://www.typescriptlang.org), with [yarn](https://yarnpkg.com).
+Configs for using [commitlint](https://commitlint.js.org/#/), [eslint](https://eslint.org), [husky](https://typicode.github.io/husky), [lint-staged](https://github.com/okonet/lint-staged), [prettier](https://prettier.io), [typescript](https://www.typescriptlang.org), with [yarn](https://yarnpkg.com).
 
 ## Installation
 
